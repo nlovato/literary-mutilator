@@ -14,8 +14,13 @@ document.getElementById("two").style.backgroundColor = "#ffffb4";
 document.getElementById("three").style.backgroundColor = "#ffffb4";
 
 //replace and switch taco with yum
-function () {
+function literaryMutilator() {
 	let tacoPara = document.getElementById("three");
 	let regex = /taco/;
 	tacoPara.innerHTML = tacoPara.innerHTML.replace(regex, 'YUM')
+}
+
+//highlight button
+function highlight() {
+	document.getElementById("three").style.backgroundColor = "#70bf53';
 }
